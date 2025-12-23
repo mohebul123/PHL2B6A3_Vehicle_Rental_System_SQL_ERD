@@ -106,6 +106,10 @@ FROM bookings b
 INNER JOIN users u ON b.user_id = u.user_id
 INNER JOIN vehicles v ON b.vehicle_id = v.vehicle_id;
 ```
+-Explanation
+This query joins three tables — bookings, users, and vehicles.
+It retrieves booking details along with the customer name and the vehicle name for each booking.
+The INNER JOIN ensures that only bookings that have valid user and vehicle references are displayed.
 
 ### 🔹 Query 2: EXISTS
 Find vehicles that have never been booked.
@@ -124,6 +128,10 @@ WHERE NOT EXISTS (
   SELECT 1 FROM bookings b WHERE b.vehicle_id = v.vehicle_id
 );
 ```
+-Explanation
+This query finds vehicles that have never been booked.
+The NOT EXISTS subquery checks for each vehicle in the vehicles table whether a corresponding record exists in the bookings table.
+If no booking is found, that vehicle appears in the result.
 
 ### 🔹 Query 3: WHERE
 Retrieve all available vehicles of a specific type.
@@ -140,6 +148,9 @@ status
 FROM vehicles
 WHERE type = 'car' AND status = 'available';
 ```
+-Explanation
+This query filters vehicles based on two conditions:
+Vehicle type must be 'car' ,Availability status must be 'available'
 
 ### 🔹 Query 4: GROUP BY & HAVING
 Find vehicles with more than 2 bookings.
@@ -154,6 +165,10 @@ GROUP BY v.name
 HAVING COUNT(*) > 2;
 
 ```
+-Explanation
+This query counts how many times each vehicle has been booked.GROUP BY groups the results by each vehicle name.
+COUNT(*) counts the total bookings for each vehicle.
+HAVING COUNT(*) > 2 filters results to show only vehicles booked more than twice.
 
 ### 📖 Theory Questions (Viva Practice)
 
