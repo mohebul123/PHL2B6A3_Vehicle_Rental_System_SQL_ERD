@@ -162,4 +162,7 @@ HAVING COUNT(*) > 2;
  - 3-What is a primary key and what are its characteristics?
  - 4-4What is the difference between INNER JOIN and LEFT JOIN in SQL?
 📂 Google Drive (Viva & Resources):
-https://drive.google.com/drive/folders/1R5F1kX7Xw59rIpJMfutrtNiAVjo9dMsq?usp=drive_link
+
+🔗 **Google Drive Link:**  https://googledriveLink
+
+
