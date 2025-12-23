@@ -176,6 +176,7 @@ HAVING COUNT(*) > 2 filters results to show only vehicles booked more than twice
  - 2-What is the difference between WHERE and HAVING clauses in SQL?
  - 3-What is a primary key and what are its characteristics?
  - 4-4What is the difference between INNER JOIN and LEFT JOIN in SQL?
+ - 
 📂 Google Drive (Viva & Resources):
 
 🔗 **Google Drive Link:**  https://googledriveLink
