@@ -83,8 +83,8 @@ Stores rental bookings.
 ---
 
 ## 🧩 ERD Diagram
-🔗 **ERD Link:**  
-> _Add your DrawSQL / Lucidchart public link here_
+🔗 **ERD Link:**  https://drawsql.app/teams/moheb/diagrams/vehicle-rental-system-erd
+
 
 
 ---
