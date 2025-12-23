@@ -173,12 +173,20 @@ HAVING COUNT(*) > 2 filters results to show only vehicles booked more than twice
 ### 📖 Theory Questions (Viva Practice)
 
  - 1-What is a foreign key and why is it important in relational databases?
+   ans: A foreign key is a column that connects one table to another.
+It helps link related data — for example, user ID in the booking table comes from the users table.
+It’s important because it keeps data accurate and prevents broken links between tables.
  - 2-What is the difference between WHERE and HAVING clauses in SQL?
+   ans:he WHERE clause is used to filter rows before grouping the data.
+The HAVING clause is used to filter data after grouping.
+So, we use WHERE for normal conditions and HAVING for conditions with GROUP BY.
  - 3-What is a primary key and what are its characteristics?
+   ans:A primary key is a column that gives a unique identity to each record in a table.
+It cannot be empty (NULL) and cannot repeat.
+For example, user_id in the users table is a primary key — it’s always unique for every user.
  - 4-4What is the difference between INNER JOIN and LEFT JOIN in SQL?
- - 
-📂 Google Drive (Viva & Resources):
-
-🔗 **Google Drive Link:**  https://googledriveLink
+   ans:  An INNER JOIN shows only the rows that match in both tables.
+A LEFT JOIN shows all rows from the left table, even if there’s no match in the right table.
+So, INNER JOIN gives only matched data, while LEFT JOIN gives all left-side data plus matches.
 
 
